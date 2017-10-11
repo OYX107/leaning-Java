@@ -16,8 +16,7 @@ public class ToGradeScore {
 		}
 	}
 	public static void main(String[] args){
-		int [] grade = {
-};
+		int [] grade = {93,84,65,77,33};
 		//String [] grades = new String[grade.length];
 		for(int i=0;i<grade.length;i++){
 			change(grade[i]);
