@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:layout_alighParentLeft="true"
+        android:background="#ff0000"
+        android:text="red"
+        android:textSize="50px"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:layout_alighParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffA500"
+        android:text="orange"
+        android:textSize="50px"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:text="yellow"
+        android:textSize="50px"
+        android:gravity="center"
+        android:background="#ffff00"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:layout_marginTop="25dp"
+        android:text="blue"
+        android:textSize="50px"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:layout_marginRight="15dp"
+        android:text="green"
+        android:textSize="50px"
+        android:gravity="center"
+        android:background="#008000"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/blue"
+
+        />
+    <TextView
+        android:id="@+id/indigo"
+        android:layout_width="180px"
+        android:layout_height="80px"
+        android:layout_marginLeft="15dp"
+        android:text="indigo"
+        android:textSize="50px"
+        android:gravity="center"
+        android:background="#4B0082"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/blue"
+
+        />
+    <TextView
+        android:id="@+id/violet"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:gravity="center"
+        android:text="violet"
+        android:textSize="50px"
+        android:textColor="#000"
+        android:background="#EEB2EE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>
