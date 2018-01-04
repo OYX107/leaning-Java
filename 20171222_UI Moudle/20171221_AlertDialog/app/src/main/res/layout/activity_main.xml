@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    tools:context="com.android.cc.a20171221_alertdialog.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:gravity="center"
+            android:text="ANDROID APP"
+            android:textSize="30sp"
+            android:background="@color/colorOrange"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:hint="@string/username"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/dialog_title"
+            android:theme="@style/MyEditText"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/username"
+            android:theme="@style/MyEditText"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:orientation="horizontal"
+            android:background="@color/colorLightGrey">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:text="@string/cancel"
+                android:textSize="14sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/dialog_btn_sure"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:text="Sign in"
+                android:textSize="14sp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

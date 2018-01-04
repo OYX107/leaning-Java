@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.cc.a20171222_menu.MainActivity">
+    <item
+        android:id="@+id/action_textSize"
+        android:title="@string/action_textSize"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/Size_ten"
+                android:title="@string/Size_ten"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/Size_sixteen"
+                android:title="@string/Size_sixteen"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/Size_twenty"
+                android:title="@string/Size_twenty"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_simple"
+        android:title="@string/action_simple"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_textColor"
+        android:title="@string/action_textColor"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/Color_black"
+                android:title="@string/Color_black"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/Color_red"
+                android:title="@string/Color_red"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
