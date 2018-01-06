@@ -70,7 +70,7 @@ public class Task {
 			  s.add(task[i][0],task[i][1],task[i][2]) ;
 			  }
 			  s.fun() ;
-			  System.out.println("进程名      到达时间                               服务时间\t完成时间     \t周转时间     \t  带权周转时间") ;
+			  System.out.println("进程名\t到达时间\t服务时间\t完成时间\t周转时间\t带权周转时间") ;
 			  s.print() ;
 		
 		
